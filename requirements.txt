@@ -1,0 +1,10 @@
+flask
+twilio
+websockets
+openai
+python-dotenv
+pydub
+gtts
+SpeechRecognition
+aiohttp
+numpy
