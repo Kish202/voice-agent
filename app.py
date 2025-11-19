@@ -26,7 +26,7 @@ def incoming_call():
     connect = response.connect()
 
     # Replace this with your ngrok WS URL
-    connect.stream(url="wss://prognathous-phytologically-takako.ngrok-free.dev/call-stream")
+    connect.stream(url="wss://voice-agent-jj1v.onrender.com/stream")
 
     return Response(str(response), mimetype="text/xml")
 
